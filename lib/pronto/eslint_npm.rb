@@ -13,7 +13,7 @@ module Pronto
     end
 
     def files_to_lint
-      @files_to_lint || /(\.js|\.es6)$/
+      @files_to_lint || /(\.js|\.es6|\.html)$/
     end
 
     def files_to_lint=(regexp)
